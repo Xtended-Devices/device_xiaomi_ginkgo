@@ -26,6 +26,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
     NotchBarKiller
 
 # Device uses high-density artwork where available
