@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "Xtended-Devices/vendor_xiaomi_ginkgo",
+    "target_path": "vendor/xiaomi/ginkgo",
+    "revision": "xq"
+  },
+  {
+    "remote": "github",
+    "repository": "Xtended-Devices/kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "revision": "xq"
+  },
+  {
+    "remote": "github",
+    "repository": "trinket-devs/vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "branch": "10.0"
+  }
+]
