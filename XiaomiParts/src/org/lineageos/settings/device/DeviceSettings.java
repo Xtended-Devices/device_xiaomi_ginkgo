@@ -24,6 +24,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
 import org.lineageos.settings.device.kcal.KCalSettingsActivity;
+import org.lineageos.settings.device.display.LcdFeaturesPreferenceActivity;
 import org.lineageos.settings.device.preferences.CustomSeekBarPreference;
 import org.lineageos.settings.device.preferences.SecureSettingListPreference;
 import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
@@ -45,6 +46,8 @@ public class DeviceSettings extends PreferenceFragment implements
 
     private static final String PREF_DEVICE_KCAL = "device_kcal";
 
+    private static final String PREF_LCD_FEATURES = "lcd_features_settings";
+
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
 
     public static final String CATEGORY_FASTCHARGE = "usb_fastcharge";
@@ -61,6 +64,7 @@ public class DeviceSettings extends PreferenceFragment implements
 
     private Preference mClearSpeakerPref;
     private SecureSettingSwitchPreference mFastcharge;
+    private Preference mLcdFeaturesPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -106,6 +110,13 @@ public class DeviceSettings extends PreferenceFragment implements
         mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
         mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
             Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
+            startActivity(intent);
+            return true;
+        });
+
+        mLcdFeaturesPref = (Preference) findPreference(PREF_LCD_FEATURES);
+        mLcdFeaturesPref.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent(getActivity().getApplicationContext(), LcdFeaturesPreferenceActivity.class);
             startActivity(intent);
             return true;
         });

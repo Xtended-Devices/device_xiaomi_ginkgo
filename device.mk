@@ -463,3 +463,6 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/XiaomiParts/init.lcd_features.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.lcd_features.rc
