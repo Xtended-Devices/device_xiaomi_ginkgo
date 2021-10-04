@@ -28,6 +28,9 @@ persist.vendor.dpmhalservice.enable=1
 persist.lcd.cabc_mode=1
 persist.lcd.hbm_mode=0
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
