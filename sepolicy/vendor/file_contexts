@@ -21,6 +21,9 @@
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.misys@2\.0-service          u:object_r:hal_misys_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hardware\.misys@3\.0-service          u:object_r:hal_misys_default_exec:s0
 
+# NFC
+/vendor/bin/hw/android\.hardware\.nfc_snxxx@1\.2-service                u:object_r:hal_nfc_default_exec:s0
+
 # Camera
 /mnt/vendor/persist/camera(/.*)?                                                     u:object_r:camera_persist_file:s0
 
@@ -45,3 +48,6 @@
 
 # Data files
 /data/per_boot(/.*)?                                                 u:object_r:per_boot_file:s0
+
+# Secure element
+/vendor/bin/hw/android\.hardware\.secure_element_snxxx@1\.2-service     u:object_r:hal_secure_element_default_exec:s0
