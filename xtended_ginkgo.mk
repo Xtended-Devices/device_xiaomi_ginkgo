@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 SuperiorOS
+# Copyright (C) 2021 Project-Xtended
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common SuperiorOS stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Xtended stuff
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -36,7 +36,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_USES_FACE_UNLOCK := true
 
 # Device identifier
-PRODUCT_NAME := superior_ginkgo
+PRODUCT_NAME := xtended_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
