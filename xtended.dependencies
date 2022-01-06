@@ -1,15 +1,15 @@
 [
     {
-        "repository":   "android_kernel_xiaomi_ginkgo",
+        "repository":   "kernel_xiaomi_ginkgo",
         "target_path":  "kernel/xiaomi/ginkgo"
     },
     {
-        "repository":   "android_vendor_xiaomi_ginkgo",
+        "repository":   "vendor_xiaomi_ginkgo",
         "target_path":  "vendor/xiaomi/ginkgo"
     },
     {
-        "repository":   "android_vendor_miuicamera",
+        "repository":   "vendor_miuicamera",
         "target_path":  "vendor/miuicamera",
-        "branch":       "arrow-12.0-a3"
+        "branch":       "xs-ginkgo"
     }
 ]
