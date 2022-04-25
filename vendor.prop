@@ -155,6 +155,7 @@ ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
+debug.sf.treat_170m_as_sRGB=1
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
