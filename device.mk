@@ -399,6 +399,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
 
+# SoC
+PROCESSOR_MODEL := SD665
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
