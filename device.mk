@@ -218,10 +218,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
-# Keyhandler
-PRODUCT_PACKAGES += \
-    KeyHandler
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
