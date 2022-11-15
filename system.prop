@@ -15,6 +15,7 @@ persist.sys.sf.disable_blurs=1
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true
