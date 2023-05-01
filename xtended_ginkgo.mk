@@ -19,7 +19,7 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Project-Xtended Specific Flags
 XTENDED_BUILD_MAINTAINER := Tejas
 XTENDED_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := false
