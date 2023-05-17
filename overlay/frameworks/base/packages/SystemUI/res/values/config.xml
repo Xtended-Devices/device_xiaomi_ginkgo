@@ -35,4 +35,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- Unify back gesture vibration with system wide haptics -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- Whether the combined qs shows in status bar -->
+    <bool name="flag_combined_qs_headers">false</bool>
 </resources>
