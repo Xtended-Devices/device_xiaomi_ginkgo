@@ -43,14 +43,8 @@ void vendor_load_properties()
     string region = GetProperty("ro.boot.hwc", "");
     string hwversion = GetProperty("ro.boot.hwversion", "");
 
-    if (region == "Global_B" && (hwversion == "18.31.0" ||
-        hwversion == "18.39.0" || hwversion == "19.39.0")) {
-        device = "willow";
-        model = "Redmi Note 8T";
-    } else {
         device = "ginkgo";
         model = "Redmi Note 8";
-    }
 
     // Override all partitions' props
     string prop_partitions[] = { "", "odm.", "product.", "system.",
